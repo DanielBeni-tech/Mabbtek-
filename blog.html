@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blog - Mabbtek</title>
+    <meta name="description" content="Retrouvez les actualités, conseils et analyses de Mabbtek.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- all-CSS-line-here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon_choicy.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- preloader-start -->
+    <div id="preloader">
+        <div class="loader_line"></div>
+    </div>
+    <!-- preloader-end -->
+    
+    <!-- header-start (identique à index.html) -->
+    <header class="chy-header-3-area">
+        <div class="chy-header-3-wrap">
+            <a aria-label="link" class="d-block chy-logo" href="index.html">
+                <img src="assets/img/logo/logo-3.png" alt="">
+            </a>
+            <div class="chy-main-menu-3  d-none d-lg-block">
+                <nav class="main-navigation clearfix ul-li">
+                    <ul id="main-nav" class="nav navbar-nav clearfix">
+                        <li class="dropdown"><a href="index.html">accueil</a></li>
+                        <li class="dropdown"><a href="services.html">services</a></li>
+                        <li class="dropdown"><a href="About.html">à propos</a></li>
+                        <li class="dropdown"><a class="active" href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="chy-header-3-action-btn">
+                <div class="chy-call-1-btn-wrap">
+                    <a aria-label="link" href="#" class="chy-call-1-icon">
+                        <i class="flaticon-viber"></i>
+                    </a>
+                    <div class="chy-call-1-content">
+                        <span class="text chy-heading-1">appelez-nous</span>
+                        <a class="phone chy-heading-1" href="#">+237-654516028</a>
+                    </div>
+                </div>
+                <a class="chy-pr-btn-4 d-sm-block d-none" href="contact.html">contactez-nous</a>
+                <div class="chy-menu-btn-1 d-lg-none" id="menuToggle">
+                    <i class="fa-light fa-bars icon-1"></i>
+                    <i class="fa-regular fa-angle-left icon-2"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- offcanvas-start -->
+        <div class="fullpage-menu" >
+            <div class="fullpage-menu-inner">
+                <div class="menu-bg">
+                    <span class="span1" ></span>
+                    <span class="span2" ></span>
+                    <span class="span3" ></span>
+                </div>
+
+                <div class="fullpage-menu-logo-wrap">
+                    <a href="index.html" class="menu-logo d-block" aria-label="brand-logo"  >
+                        <img src="assets/img/logo/logo.png" alt="">
+                    </a>
+                    <i id="menuToggle2" class="fas fullpage-menu-close fa-times"></i>
+                </div>
+
+                <div class="mobile-search-bar">
+                    <form action="#">
+                        <input type="text" name="search" placeholder="Keywords">
+                        <button type="button" aria-label="search" ><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+
+    
+                <div class="fullpage-content-wrap">
+
+
+                    <!-- mobile-menu-list -->
+                    <nav class="mobile-main-navigation  clearfix ul-li">
+                        <ul id="m-main-nav" class="nav navbar-nav clearfix">
+
+
+                            <li class="dropdown">
+                                <a href="index.html">home</a>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="About.html">about</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="services.html">services</a>
+                            <li class="dropdown">
+                                <a href="blog.html">blog</a>                        
+                            <li>
+                                <a href="contact.html">contact</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+    </header>
+    <!-- header-end -->
+
+    <!-- hero section -->
+    <section class="chy-hero-3-area pt-120 pb-60">
+        <div class="container chy-container-1">
+            <div class="row justify-content-between align-items-end g-3">
+                <div class="col-lg-7">
+                    <div class="chy-hero-3-item-content">
+                        <h1 class="chy-subtitle-3 mb-20">Le blog</h1>
+                        <h1 class="chy-heading-1 hero-3-title mb-10">Actualités, conseils & analyses</h1>
+                        <p class="chy-para-3">Découvrez nos articles sur le digital, le développement, le marketing, l’innovation et la tech.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form id="blogFilter" class="row gy-2 gx-2 align-items-center">
+                        <div class="col-12 col-sm">
+                            <input class="form-control" type="text" id="q" placeholder="Rechercher...">
+                        </div>
+                        <div class="col-6 col-sm">
+                            <select id="category" class="form-select">
+                                <option value="">Toutes catégories</option>
+                                <option value="Digital">Digital</option>
+                                <option value="Développement">Développement</option>
+                                <option value="Marketing">Marketing</option>
+                                <option value="Design">Design</option>
+                                <option value="SEO">SEO</option>
+                                <option value="Conseils">Conseils</option>
+                            </select>
+                        </div>
+                        <div class="col-6 col-sm-auto">
+                            <button class="chy-pr-btn-4 w-100" type="submit">Filtrer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- catégories section -->
+    <section class="pt-0 pb-40">
+        <div class="container chy-container-1">
+            <div class="text-center mb-30">
+                <a href="blog.html?cat=Digital" class="chy-pr-btn-4 m-1">Digital</a>
+                <a href="blog.html?cat=Développement" class="chy-pr-btn-4 m-1">Développement</a>
+                <a href="blog.html?cat=Marketing" class="chy-pr-btn-4 m-1">Marketing</a>
+                <a href="blog.html?cat=Design" class="chy-pr-btn-4 m-1">Design</a>
+                <a href="blog.html?cat=SEO" class="chy-pr-btn-4 m-1">SEO</a>
+                <a href="blog.html?cat=Conseils" class="chy-pr-btn-4 m-1">Conseils</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- articles section -->
+    <section class="chy-blog-3-area pt-30 pb-100">
+        <div class="container chy-container-1">
+            <div id="blogList" class="row" data-empty-text="Aucun article trouvé."></div>
+            <div class="d-flex justify-content-center pt-4">
+                <button id="loadMore" class="chy-pr-btn-4">Charger plus</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- appel à l'action newsletter -->
+    <section class="chy-cta-1-area pt-80 pb-80">
+        <div class="container chy-container-1">
+            <div class="chy-cta-1-wrap">
+                <div class="chy-cta-1-content justify-content-center text-center">
+                    <h3 class="chy-title-1 mb-3">Ne ratez rien de l’actualité digitale !</h3>
+                    <p class="chy-para-3 mb-4">Abonnez-vous à notre newsletter pour recevoir nos derniers articles et conseils.</p>
+                    <form class="chy-footer-3-form d-inline-block" action="#">
+                        <input type="text" placeholder="Votre email">
+                        <button aria-label="newsletter" type="submit">S’abonner</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-start (identique à index.html) -->
+    <footer class="chy-footer-3-area pt-110 pb-30" >
+        <div class="container chy-container-1">
+            <div class="chy-footer-3-top">
+                <div class="chy-footer-3-widget">
+                    <a aria-label="link" class="footer-logo" href="index.html">
+                        <img src="assets/img/logo/logo-3.png" alt="">
+                    </a>
+                    <p class="chy-para-3 disc">Mabbtek est une agence digitale qui conçoit des sites, applications et solutions marketing pour transformer vos idées en technologies évolutives.</p>
+                    <ul class="chy-footer-3-social">
+                        <li><a href="#"><i class="flaticon-facebook"></i> facebook</a></li>
+                        <li><a href="#"><i class="flaticon-instagram"></i> instagram</a></li>
+                    </ul>
+                </div>
+                <div class="chy-footer-3-widget">
+                    <ul class="chy-footer-3-menu" >
+                        <li><a href="index.html"><i class="flaticon-right-up"></i> accueil</a></li>
+                        <li><a href="About.html"><i class="flaticon-right-up"></i> à propos</a></li>
+                        <li><a href="services.html"><i class="flaticon-right-up"></i> services</a></li>
+                        <li><a href="blog.html"><i class="flaticon-right-up"></i> blog</a></li>
+                    </ul>
+                </div>
+                <div class="chy-footer-3-widget">
+                    <ul class="chy-footer-3-menu" >
+                        <li><a href="contact.html"><i class="flaticon-right-up"></i> contact</a></li>
+                        <li><a href="#"><i class="flaticon-right-up"></i> politique de confidentialité</a></li>
+                        <li><a href="#"><i class="flaticon-right-up"></i> mentions légales</a></li>
+                        <li><a href="#"><i class="flaticon-right-up"></i> cgu</a></li>
+                    </ul>
+                </div>
+                <div class="chy-footer-3-widget">
+                    <ul class="chy-footer-3-menu" >
+                        <li><a href="About.html"><i class="flaticon-right-up"></i> notre histoire</a></li>
+                        <li><a href="contact.html"><i class="flaticon-right-up"></i> aide & support</a></li>
+                        <li><a href="services.html"><i class="flaticon-right-up"></i> nos expertises</a></li>
+                        <li><a href="contact.html"><i class="flaticon-right-up"></i> nous contacter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chy-footer-3-bottom">
+                <div class="chy-footer-3-widget">
+                    <h4 class="chy-heading-1 chy-footer-3-widget-title">newsletter</h4>
+                    <form class="chy-footer-3-form" action="#">
+                        <input type="email" placeholder="Votre email">
+                        <button aria-label="newsletter" type="submit" >S’abonner</button>
+                    </form>
+                </div>
+                <div class="chy-footer-3-widget">
+                    <div class="chy-footer-2-team">
+                        <a aria-label="link" href="assets/img/footer/f2-team-1.png" class="item popup_img img-cover" >
+                            <img src="assets/img/footer/f2-team-1.png" alt="">
+                        </a>
+                        <a aria-label="link" href="assets/img/footer/f2-team-2.png" class="item popup_img img-cover" >
+                            <img src="assets/img/footer/f2-team-2.png" alt="">
+                        </a>
+                        <a aria-label="link" href="assets/img/footer/f2-team-3.png" class="item popup_img img-cover" >
+                            <img src="assets/img/footer/f2-team-3.png" alt="">
+                        </a>
+                        <a aria-label="link" href="assets/img/footer/f2-team-4.png" class="item popup_img img-cover" >
+                            <img src="assets/img/footer/f2-team-4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="chy-footer-3-widget">
+                    <ul class="chy-footer-3-contact">
+                        <li><a href="#"><i class="fas fa-phone"></i>( +237 ) 654 51 60 28</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i>mabbtek@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="chy-footer-3-widget full-width">
+                    <h4 class="chy-heading-1 copyright-link text-center"><span>© copyright 2025.</span> Mabbtek — tous droits réservés</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+
+    <!-- back-to-top-button-start -->
+    <div class="scroll-top has-home-3">
+        <div class="scroll-top-wrap">
+            <i class="icon-1 fal fa-long-arrow-up"></i>
+        </div>
+    </div>
+    <!-- back-to-top-button-end -->
+    <div class="offcanvas-overlay"></div>
+    <!-- all-JS-link-here -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/marquee.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/knob.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/counterup.min.js"></script>
+    <script src="assets/js/split-type.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+    const apiBase = 'backend';
+    let page = 1; const limit = 9; let loading = false; let reachedEnd = false;
+
+    function createCard(item) {
+      const col = document.createElement('div');
+      col.className = 'col-xl-4 col-lg-6 col-md-6';
+      col.innerHTML = `
+        <div class="chy-blog-3-item tilt_scale">
+          <div class="main-img img-cover" style="position:relative;">
+            <img src="${item.cover_image || 'assets/img/blog/b3-img-1.png'}" alt="">
+          </div>
+          <div class="content-wrap">
+            <div class="chy-blog-3-item-meta">
+              <span class="chy-heading-1 author"><i class="flaticon-avatar"></i> par ${item.author || 'Mabbtek'}</span>
+              <span class="chy-heading-1 comment"><i class="flaticon-chat"></i> ${item.category || ''}</span>
+            </div>
+            <h5 class="chy-heading-1 title">
+              <a href="blog-details.html?slug=${encodeURIComponent(item.slug)}">${item.title}</a>
+            </h5>
+            <p class="chy-para-3 disc">${item.excerpt || ''}</p>
+            <a class="chy-pr-btn-4 mt-2" href="blog-details.html?slug=${encodeURIComponent(item.slug)}">Lire la suite</a>
+          </div>
+        </div>`;
+      return col;
+    }
+
+    async function fetchPosts(reset=false) {
+      if (loading || reachedEnd) return; loading = true;
+      const params = new URLSearchParams({ page, limit });
+      const q = document.getElementById('q').value.trim();
+      const category = document.getElementById('category').value;
+      if (q) params.set('q', q);
+      if (category) params.set('category', category);
+      const res = await fetch(`${apiBase}/blog_list.php?${params.toString()}`);
+      const data = await res.json();
+      const list = document.getElementById('blogList');
+      if (reset) list.innerHTML = '';
+      if (!data.success) { loading = false; return; }
+      if (data.items.length === 0 && page === 1) {
+        list.innerHTML = `<div class="col-12 text-center text-muted">${list.dataset.emptyText}</div>`;
+        reachedEnd = true;
+      } else {
+        data.items.forEach(item => list.appendChild(createCard(item)));
+        const shown = page * limit;
+        if (shown >= data.total) { reachedEnd = true; document.getElementById('loadMore').style.display='none'; }
+        else { document.getElementById('loadMore').style.display='inline-block'; }
+      }
+      loading = false;
+    }
+
+    document.getElementById('blogFilter').addEventListener('submit', (e) => {
+      e.preventDefault(); page = 1; reachedEnd = false; fetchPosts(true);
+    });
+    document.getElementById('loadMore').addEventListener('click', () => { page += 1; fetchPosts(); });
+    fetchPosts(true);
+    </script>
+</body>
+</html>
